@@ -28,6 +28,6 @@ unset rc
 #themeName='bubbles'
 #eval "$(oh-my-posh init bash --config $themeName)"
 
-export PS1='\[\e[34m\]\[\e[0m\]\[\e[44m\]  \u \[\e[0m\]\[\e[47m\]\[\e[34m\]\[\e[0m\]\[\e[47m\]\[\e[30m\] \[\e[0m\]\[\e[100m\]\[\e[37m\]\[\e[0m\]\[\e[100m\]\[\e[97m\] \w \[\e[0m\]\[\e[90m\]\[\e[0m\] '
+export PS1=' \[\e[34m\]\[\e[0m\]\[\e[44m\]  \u \[\e[0m\]\[\e[47m\]\[\e[34m\]\[\e[0m\]\[\e[47m\]\[\e[30m\] \[\e[0m\]\[\e[100m\]\[\e[37m\]\[\e[0m\]\[\e[100m\]\[\e[97m\] \w \[\e[0m\]\[\e[90m\]\[\e[0m\] '
 
 fastfetch
