@@ -25,14 +25,6 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-#themeName='kali'
-#eval "$(oh-my-posh init bash --config $themeName)"
-
 export PS1='┌──\[\e[34m\]\[\e[0m\]\[\e[44m\] ㉿ \u \[\e[0m\]\[\e[47m\]\[\e[34m\]\[\e[0m\]\[\e[47m\]\[\e[30m\] \[\e[0m\]\[\e[100m\]\[\e[37m\]\[\e[0m\]\[\e[100m\]\[\e[97m\] \w \[\e[0m\]\[\e[90m\]\[\e[0m\]
 └──$ '
 
-#PS1=" \[\033[33m\]❯ "
-
-export PREFIX="$HOME/Projects/osdev/tet-os/cross"
-export TARGET=i686-elf
-export PATH="$PREFIX/bin:$PATH"
